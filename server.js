@@ -10,8 +10,8 @@ const quoteRoutes = require("./routes/quote");
 //  })
 
 mongoose.connect(process.env.MONGODB_URI, {
-    // useNewUrlParser: true,
-    // useUnifiedTopology: true,
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
     tls: true,
     // ssl: true,
     // sslValidate: false, // only if you're using self-signed certificates
